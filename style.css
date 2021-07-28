@@ -58,6 +58,7 @@ img{
     border-radius: 10px;
     margin: 50px;
     box-shadow: 1px 1px 15px white;
+    max-width: 80vw;
 
 }
 .title{
@@ -72,6 +73,7 @@ img{
     left: 50px;
     text-align: left;
     font-size: 15pt;
+    max-width: 50vw;
 }
 #sobre img{
     width: 210px;
@@ -119,8 +121,9 @@ a{
     .lista{
         float: none;
         background-color: rgb(255, 189, 66);
-        padding: 40px;
-        margin: 80px;
+        padding: 20px;
+        margin: auto;
+        margin-top: 80px;
         text-align: center;
         border: 1px solid black;
         border-radius: 15px;
@@ -132,5 +135,10 @@ a{
         padding-top:20px;
         padding-left:20px ;
         line-height: 30px;
+    }
+    #cardapios img{
+        margin:0 ;
+        margin-top:50px ;
+        margin-bottom: 50px;
     }
 }
